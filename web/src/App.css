@@ -1,0 +1,48 @@
+ .appContainer {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 1rem;
+
+  button {
+    height: 40px;
+  }
+}
+
+.textVisualizer {
+  width: 600px;
+  height: 600px;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.uploadedText {
+  flex: 1;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: white;
+  color: #1a1a1a;
+}
+
+.uploadedTextContainer {
+  height: 100%;
+  overflow-y: auto;
+  max-height: 479px;
+}
+
+.uploadedTextActions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 1rem;
+  background-color: #857d63;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+label[for="uploadedText"] {
+  font-size: 22px;
+  font-weight: bold;
+}
